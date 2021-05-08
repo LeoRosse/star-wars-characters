@@ -2,7 +2,7 @@
   "name": "characters",
   "version": "1.0.0",
   "description": "Pulsarplatform characters",
-  "main": "../../build/build-characters/main.js",
+  "main": "build/main.js",
   "scripts": {
     "build": "rm -rf ./build/ && webpack --mode production",
     "build:dev": "webpack --mode development",
