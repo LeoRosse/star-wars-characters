@@ -7,7 +7,7 @@ module.exports = {
   entry: './src/index',
   output: {
     publicPath: 'http://localhost:3001/',
-    path: path.resolve(__dirname, '../../build/build-characters'),
+    path: path.resolve(__dirname, './build'),
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.jsx', '.js', '.json'],
